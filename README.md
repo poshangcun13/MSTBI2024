@@ -19,10 +19,10 @@ Data were collected on 545 patients with TBI from 2013 through 2024.The mean age
 ### Data feature
  Table I lists the clinical characteristics of the patients involved in the constructed MSTBI dataset. The data set included information on patient demographics, the mechanism of injury, the initial clinical examination results following admission, qualitative imaging variables, and discharge information. The characteristics collected were referenced to benchmarks performed by previous researchers in order to facilitate comparison.\
  ![image](https://github.com/poshangcun13/MSTBI2024/blob/main/table1.png)
-## Using Frames
-### Download code
- Decompression：IDS_KDD99、CIC_DDOS2019、CIC_IDS2018
-### Data enhancement
+## Experiment
+### Experimental condition
+ All models were implemented in Python (version 3.8.15) programming language and Pytorch (version 1.12.1) deep learning framework. The hardware and software configurations of the system include CPU: Intel(R) Core (TM) i7-11700 @ 2.50 GHz, RAM: 32.0 GB, GPU: NVIDIA GeForce RTX 3080, OS: Windows 10 Professional (version 22H2).
+### UNet Model Testing
 ![image](https://github.com/poshangcun13/CycleGAN-based-intrusion-detection/blob/main/data%20enhancement.png)
 ### Run code
  Train the model to detect individual attacks：run attacks.py\
