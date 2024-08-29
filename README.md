@@ -22,11 +22,12 @@ Data were collected on 545 patients with TBI from 2013 through 2024.The mean age
 ## Experiment
 ### Experimental condition
  All models were implemented in Python (version 3.8.15) programming language and Pytorch (version 1.12.1) deep learning framework. The hardware and software configurations of the system include CPU: Intel(R) Core (TM) i7-11700 @ 2.50 GHz, RAM: 32.0 GB, GPU: NVIDIA GeForce RTX 3080, OS: Windows 10 Professional (version 22H2).
-### UNet Model Testing
+### UNet Model Testing 
 ![image](https://github.com/poshangcun13/MSTBI2024/blob/main/fig3.png)
-### Run code
- Train the model to detect individual attacks：run attacks.py\
- Model monetization of test set: run predict.py
-### Performance analysis
-![image](https://github.com/poshangcun13/CycleGAN-based-intrusion-detection/blob/main/FNR-FPR.png)
+### Mortality Predication
+ Model	Accuracy	Precision	Recall	F1-Score
+Logistic regression	0.806	0.625	1.0	0.769
+Random forest	0.667	0.617	0.564	0.640
+### Diagram describing the patient selection and dataset pre-processing steps.
+![image](https://github.com/poshangcun13/MSTBI2024/blob/main/fig4.png)
 
