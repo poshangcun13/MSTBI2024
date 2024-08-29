@@ -6,10 +6,9 @@
 ## Configuring the environment
  Open File：requirements.txt
 ## Advantages of the dataset
-***Specialized TBI data:*** Compared to the datasets of proposed in [16], [17] and [18], the proposed dataset is specialized for moderate to severe TBI.\
- ***Extensive CT image annotation:*** Each CT slice was meticulously annotated by a radiologist to encompass all potential subtypes of ICH and the corresponding hemorrhagic area masks.\
- ***Multimodal TBI data:*** In contrast to [15] and [18] datasets, the proposed dataset includes demographic information, clinical data, imaging data, and other relevant information. It can be used for studies of multi-label classification, instance segmentation and prognosis prediction.\
- \
+***Specialized TBI data:*** Compared to the datasets of proposed in [16], [17] and [18], the proposed dataset is specialized for moderate to severe TBI.\\
+ ***Extensive CT image annotation:*** Each CT slice was meticulously annotated by a radiologist to encompass all potential subtypes of ICH and the corresponding hemorrhagic area masks.\\
+ ***Multimodal TBI data:*** In contrast to [15] and [18] datasets, the proposed dataset includes demographic information, clinical data, imaging data, and other relevant information. It can be used for studies of multi-label classification, instance segmentation and prognosis prediction.\\
  File type：image data
 ### DataSets
 In order to better increase the generalization of the code, the batch size of this repository code is set to 1
