@@ -14,7 +14,8 @@
  \
  File type：image data
 ### DataSets
-In order to better increase the generalization of the code, the batch size of this repository code is set to 1
+A retrospective study was designed to collect brain CT scans, clinical data, and other relevant information from patients with TBI and was approved by the Ethics Committee of the Tianjin No. 4 Central Hospital (SZXLL-2023-KY028). The dataset included any patient admitted for TBI between the ages of 18 and 80 years with moderate to severe TBI and a GCS score of 3 to 13. Patients who did not have an admission CT head scan prior to neurosurgical intervention and patients without any recorded information were excluded. Each subject's personal information was anonymized.\
+Data were collected on 545 patients with TBI from 2013 through 2024.The mean age of the patients in the MSTBI dataset was 55.8 years, with 420 males and 125 females. A non-enhanced CT scan consisted of approximately 60 slices with a slice thickness of 2.5 mm. The CT images were saved in two formats: as PNG images and as DICOM raw files. The pixel size of the images was uniformly set to 512×512 pixels. As illustrated in Fig. 1, the CT slices were classified into five categories based on the distinct locations of ICH: intraparenchymal hemorrhage (IPH), intraventricular hemorrhage (IVH), epidural hemorrhage (EDH), subdural hemorrhage (SDH), and subarachnoid hemorrhage (SAH). Two radiologists applied the Labelme software to the ICH region to generate a mask for each slice, and the type of hemorrhage was recorded. Figure 2 illustrates an annotated example of CT slices from the aforementioned dataset. Figure 2(a) depicts the original CT slice. Figure 2(b) depicts the ground truth, with different colors representing the various types of hemorrhage. Figure 2(c) provides a detailed account of the labels included in the CT slice.
 ### Data processing
  ***Z-scores***
 ## Using Frames
