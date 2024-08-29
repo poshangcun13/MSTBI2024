@@ -25,8 +25,8 @@ Data were collected on 545 patients with TBI from 2013 through 2024.The mean age
 ### UNet Model Testing 
 ![image](https://github.com/poshangcun13/MSTBI2024/blob/main/fig3.png)
 ### Mortality Predication
- Model	Accuracy	Precision	Recall	F1-Score
-Logistic regression	0.806	0.625	1.0	0.769
+ Model	Accuracy	Precision	Recall	F1-Score\
+Logistic regression	0.806	0.625	1.0	0.769\
 Random forest	0.667	0.617	0.564	0.640
 ### Diagram describing the patient selection and dataset pre-processing steps.
 ![image](https://github.com/poshangcun13/MSTBI2024/blob/main/fig4.png)
