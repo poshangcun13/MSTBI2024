@@ -1,6 +1,6 @@
 ### After the paper is accepted, the complete dataset will be made public.
 # MSTBI: Head CT Detection and Prognostic Assessment of Traumatic Brain Injury Dataset[paper]
-![image](https://github.com/poshangcun13/CycleGAN-based-intrusion-detection/blob/main/ALL.png)
+![image](https://github.com/poshangcun13/MSTBI2024/blob/main/fig1.png)
 ## Abstract
  A high-quality traumatic brain injury (TBI) dataset is essential to intelligent assisted diagnosis. In this work, we present a new labeled public TBI dataset containing head CT scans and various examination variables. The dataset was collected from 545 patients with moderate to severe TBI and CT annotations were produced. We provide example applications of segmentation, multilabel classification, and in-hospital mortality prediction models.
 ## Configuring the environment
